@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-laranja: rgb(255,77,0);
+    --cor-de-fundo: rgb(4,7,20);
+    --botao-laranja-efeito: rgb(255, 119, 60);
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
