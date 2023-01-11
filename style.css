@@ -7,7 +7,7 @@
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-laranja: rgb(255,77,0);
-    --cor-de-fundo: rgb(4,7,20);
+    --cor-de-fundo: rgb(11,11,11);
     --botao-laranja-efeito: rgb(255, 119, 60);
     --fonte-principal: 'Inter', sans-serif;
 }
@@ -15,5 +15,30 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
+.principal {
+    background-image: url(img/backgroundRaceTv+3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.container__caixa {
+    margin-left: 3em;
+}
+
+.container__imagem {
+    width: 50%;
+}
