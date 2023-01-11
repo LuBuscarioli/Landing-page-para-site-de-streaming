@@ -8,7 +8,7 @@
     --cinza-secundario: #C0C0C0;
     --botao-vermelho: #b40227;
     --cor-de-fundo: rgb(0, 0, 0);
-    --botao-vermelho-efeito: #ff2a2a;
+    --botao-vermelho-efeito: #530000;
     --fonte-principal: 'Inter', sans-serif;
 }
 
@@ -36,7 +36,7 @@ body {
 }
 
 .container__caixa {
-    margin: 0 8em;
+    margin: 0 1em;
 }
 
 .container__imagem {
@@ -48,13 +48,24 @@ body {
     color: var(--branco-principal);
     border-radius: 5px;
     display: block;
+    width: fit-content;
     padding: 1em;
     text-decoration: none;
-    margin-bottom: 1.5em;
-    margin-top: 1.5em;
+    margin: 1.5em auto;
+    transition: 200ms;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-vermelho-efeito);
+    transition: 200ms;
+    font-size: 16.5px;
 }
 
 .container__aviso {
     text-decoration: underline;
     color: var(--cinza-secundario);
+}
+
+.container__aviso:hover {
+    color: var(--branco-principal);
 }
