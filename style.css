@@ -6,9 +6,9 @@
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
-    --botao-laranja: rgb(255,77,0);
+    --botao-vermelho: #b40227;
     --cor-de-fundo: rgb(0, 0, 0);
-    --botao-laranja-efeito: rgb(255, 119, 60);
+    --botao-vermelho-efeito: #ff2a2a;
     --fonte-principal: 'Inter', sans-serif;
 }
 
@@ -16,7 +16,7 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -32,13 +32,29 @@ body {
 .container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
 }
 
 .container__caixa {
-    margin-left: 3em;
+    margin: 0 8em;
 }
 
 .container__imagem {
-    width: 60%;
+    width: 65%;
+}
+
+.container__botao {
+    background-color: var(--botao-vermelho);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+.container__aviso {
+    text-decoration: underline;
+    color: var(--cinza-secundario);
 }
