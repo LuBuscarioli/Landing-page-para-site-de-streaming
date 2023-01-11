@@ -40,7 +40,12 @@ body {
 }
 
 .container__imagem {
-    width: 65%;
+    width: 55%;
+}
+
+.container__titulo {
+    font-size: 26px;
+    font-weight: 700;
 }
 
 .container__botao {
@@ -61,11 +66,21 @@ body {
     font-size: 16.5px;
 }
 
-.container__aviso {
+.container__botao-secundario {
     text-decoration: underline;
     color: var(--cinza-secundario);
+    font-size: 14px;
 }
 
-.container__aviso:hover {
+.container__botao-secundario:hover {
     color: var(--branco-principal);
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 1em;
 }
