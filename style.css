@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-    height: 100vh;
+    height: 90vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -46,6 +46,7 @@ body {
 .container__titulo {
     font-size: 26px;
     font-weight: 700;
+    margin-bottom: 1.1em;
 }
 
 .container__botao {
@@ -63,7 +64,7 @@ body {
 .container__botao:hover {
     background-color: var(--botao-vermelho-efeito);
     transition: 200ms;
-    font-size: 16.5px;
+    font-size: 16.2px;
 }
 
 .container__botao-secundario {
@@ -88,8 +89,8 @@ body {
 
 .descricao__titulo {
     font-weight: 700;
-    font-size: 38px;
-    margin-bottom: 0.8em;
+    font-size: 42px;
+    margin-bottom: 0.6em;
 }
 
 .descricao__texto {
