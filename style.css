@@ -7,7 +7,7 @@
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-vermelho: #b40227;
-    --cor-de-fundo: rgb(0, 0, 0);
+    --cor-de-fundo: #000000;
     --botao-vermelho-efeito: #530000;
     --fonte-principal: 'Inter', sans-serif;
 }
@@ -77,11 +77,22 @@ body {
 }
 
 .secundario__imagem {
-    width: 80%;
+    width: 95%;
 }
 
 .secundario {
     align-items: center;
-    margin: 0 1em;
+    margin: 0 8em;
     justify-items: center;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 0.8em;
+}
+
+.descricao__texto {
+    font-size: 20px;
+    color: var(--cinza-secundario);
 }
