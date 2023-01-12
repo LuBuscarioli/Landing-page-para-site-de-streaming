@@ -83,4 +83,5 @@ body {
 .secundario {
     align-items: center;
     margin: 0 1em;
+    justify-items: center;
 }
