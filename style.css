@@ -147,15 +147,26 @@ body {
 
 }
 
-/* .................MEDIA QUERY..................... */
+/* .................MEDIA QUERY mobile..................... */
 
 @media screen and (max-width: 767px) {
+    .principal {
+        display: block;
+        background-image: url(img/backgroundRaceTv-mobile.png);
+        background-position: top;
+        background-size: 82vh;
+    }
+
+    .container__caixa {
+        padding-top: 35vh;
+    }
     .container__imagem{
         width: 100%;
     }
     .container {
-        height: 80vh;
+        height: 100vh;
         grid-template-columns: 50% 50%;
+        text-align: center;
     }
 
     .container__titulo {
@@ -167,7 +178,8 @@ body {
         font-size: 1em;
     }
     .secundario {
-        margin: 0em 2em;
+        margin: 0em 1.5em;
+        display: block;
     }
 
     .descricao__titulo {
@@ -188,7 +200,8 @@ body {
     }
 
     .rodape__logo {
-        width: 25%;
+        width: 50%;
+        padding-left: 0.5em;
     }
 
     .rodape__lista {
@@ -202,12 +215,14 @@ body {
     }
 }
 
+/* .................MEDIA QUERY tablet..................... */
+
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     .container__imagem{
         width: 100%;
     }
     .container {
-        height: 80vh;
+        height: 100vh;
         grid-template-columns: 50% 50%;
     }
 
