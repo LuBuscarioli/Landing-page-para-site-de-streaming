@@ -149,9 +149,62 @@ body {
 
 /* .................MEDIA QUERY..................... */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
     .container__imagem{
-        width: 80%;
+        width: 100%;
+    }
+    .container {
+        height: 80vh;
+        grid-template-columns: 50% 50%;
+    }
+
+    .container__titulo {
+        font-size: 20px;
+    }
+
+    .container__botao{
+        padding: 0.5em;
+        font-size: 1em;
+    }
+    .secundario {
+        margin: 0em 2em;
+    }
+
+    .descricao__titulo {
+        font-size: 2em;
+    }
+
+    .descricao__texto {
+        font-size: 1.2em;
+    }
+
+    .dispositivos__titulo {
+        font-size: 2em;
+    }
+
+    .dispositivos__lista {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .rodape__logo {
+        width: 25%;
+    }
+
+    .rodape__lista {
+        display: block;
+        font-size: 12px;
+        line-height: 2.5em;
+    }
+
+    .rodape p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .container__imagem{
+        width: 100%;
     }
     .container {
         height: 80vh;
