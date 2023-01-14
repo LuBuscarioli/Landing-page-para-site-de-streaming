@@ -153,6 +153,7 @@ body {
 .faq__answer {
     max-height: 0;
     overflow: hidden;
+    transition: 1s ease;
 }
 
 .faq__answer p {
@@ -165,6 +166,14 @@ body {
 
 .faq__content.active .faq__answer {
     max-height: 300px;
+}
+
+.faq__content.active svg {
+    transform: rotate(180deg);
+}
+
+svg {
+    transition: 300ms ease-in;
 }
 
 /* ////////// FAQ CONTAINER Fim /////////// */
