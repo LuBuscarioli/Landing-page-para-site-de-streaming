@@ -119,7 +119,7 @@ body {
 /* ////////// FAQ CONTAINER Inicio /////////// */
 
 .faq__container {
-    min-height: 80vh;
+    min-height: 50vh;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -133,7 +133,7 @@ body {
 }
 
 .faq__content {
-    max-width: 700px;
+    width: 70vw;
     margin-top: 2em;
     padding-bottom: 1em;
     border-bottom: 2px solid var(--branco-principal);
@@ -160,6 +160,7 @@ body {
     padding-bottom: 1em;
     line-height: 1.6;
     font-size: 1.2em;
+    color: var(--cinza-secundario);
 }
 
 .faq__content.active .faq__answer {
