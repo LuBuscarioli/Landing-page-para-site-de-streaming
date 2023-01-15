@@ -20,6 +20,44 @@ body {
     font-weight: 400;
 }
 
+/****************** NAV INÍCIO *************** */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--botao-vermelho-efeito);
+    height: 5vh;
+}
+
+.login {
+    font-size: 1.5em;
+    letter-spacing: 4px;
+    padding-left: 3em;
+}
+
+.navbar a {
+    color: var(--branco-principal);
+    text-decoration: none;
+    transition: 300ms;
+}
+
+.navbar a:hover {
+    color: var(--cinza-secundario);
+}
+
+.nav__lista{
+    list-style: none;
+    display: flex;
+}
+
+.nav__lista li {
+    letter-spacing: 3px;
+    margin-left: 1.5em;
+}
+
+/****************** NAV FIM *************** */
+
 .principal {
     background-image: url(img/backgroundRaceTv+.png);
     background-repeat: no-repeat;
