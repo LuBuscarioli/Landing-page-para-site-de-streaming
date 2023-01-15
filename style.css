@@ -78,6 +78,12 @@ body {
 
 .secundario__imagem {
     width: 95%;
+    transition: 100ms;
+}
+
+.secundario__imagem:hover {
+    width: 96%;
+    transition: 200ms;
 }
 
 .secundario {
