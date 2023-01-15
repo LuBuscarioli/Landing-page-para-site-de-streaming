@@ -31,9 +31,20 @@ body {
 }
 
 .login {
-    font-size: 1.5em;
+    font-size: 1.2em;
     letter-spacing: 4px;
-    padding-left: 3em;
+}
+
+.nav__menu {
+    cursor: pointer;
+    display: none;
+}
+
+.nav__menu div {
+    width: 32px;
+    height: 2px;
+    background: var(--branco-principal);
+    margin: 8px;
 }
 
 .navbar a {
@@ -257,6 +268,31 @@ svg {
 /* .................MEDIA QUERY mobile..................... */
 
 @media screen and (max-width: 767px) {
+    /* NAV início */ 
+    .nav__lista{
+        position: absolute;
+        top: 5vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: var(--botao-vermelho-efeito);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        display: none;
+    }
+
+    .nav__lista li {
+        margin-left: 0;
+    }
+
+    .nav__menu {
+        display: block;
+        padding-right: 15px;
+    }
+
+    /* NAV fim */ 
+
     .principal {
         display: block;
         background-image: url(img/backgroundRaceTv-mobile.png);
