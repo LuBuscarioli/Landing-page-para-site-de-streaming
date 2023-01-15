@@ -282,6 +282,10 @@ svg {
         display: none;
     }
 
+    .nav__lista.active {
+        display: flex;
+    }
+
     .nav__lista li {
         margin-left: 0;
     }

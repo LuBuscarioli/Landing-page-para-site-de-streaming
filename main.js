@@ -3,7 +3,7 @@ const button = document.querySelector ('.nav__menu')
 const navMobile = document.querySelector('.nav__lista')
 
 button.addEventListener('click', () => {
-    navMobile.style.display = 'flex'
+    navMobile.classList.toggle('active');
 });
 
 // FAQ CONTAINER
