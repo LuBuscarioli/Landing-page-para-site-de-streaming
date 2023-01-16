@@ -33,6 +33,7 @@ body {
 .login {
     font-size: 1.2em;
     letter-spacing: 4px;
+    padding-left: 5vw;
 }
 
 .nav__menu {
@@ -274,7 +275,7 @@ svg {
         top: 5vh;
         right: 0;
         width: 50vw;
-        height: 92vh;
+        height: 40vh;
         background: var(--botao-vermelho-efeito);
         flex-direction: column;
         align-items: center;
